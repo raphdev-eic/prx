@@ -1,0 +1,47 @@
+/* RESET */
+/* ----------------------------------------- */
+
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td { margin:0; padding:0 }
+table { border-collapse:collapse; border-spacing:0 }
+fieldset, img { border:0 }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal }
+ol, ul, li { list-style:none }
+caption, th { text-align:left }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; font-family: Open Sans, Tahoma, Arial, sans-serif; }
+q:before, q:after { content:''}
+
+/* Global reset-RESET */
+/* The below restores some sensible defaults */
+strong { font-weight:bold; }
+em { font-style:italic; }
+a img { border:none; } /* Gets rid of IE's blue borders */
+
+.fl { float: left; }
+.fr { float: right; }
+.cb { clear: both; }
+.last { padding: 0 !important; margin-right: 0 !important;}
+.first { padding-left: 44px; }
+/* MASTER */
+/* ----------------------------------------- */
+/*********** General Sections ***********/
+
+body { font-family: Open Sans, Tahoma, Arial, sans-serif; font-size: 13px; font-weight: normal;  color: #333333; background-color: #1f1f1f; }
+.container { width: 758px; margin: 0 auto;}
+.col { padding-right: 50px; margin-bottom: 30px; float: left;}
+.bg_line { height: 2px; background: url('../images/bg_line.png') repeat-x; margin-bottom: 25px;}
+
+/* ----------------------------------------- */
+/*********** Header Container ***********/
+
+#topContainer { width: 100%; color: #f1f1f1; font-size: 20px; height: 132px; padding-top: 17px; text-align: center; }
+
+/* ----------------------------------------- */
+/*********** Templates Container ***********/
+
+
+.templates h1 { padding: 50px 0 10px 0; color: #a5a5a5; font-size: 18px; }
+
+/* ----------------------------------------- */
+/*********** Footer Container ***********/
+#footerContainer { width: 100%; margin-top: 60px; padding: 15px 0; background-color: #0f0f0f; border-top: 5px solid #0c0c0c;  }
+#footerContainer p { width: 100%; text-align: center; }
